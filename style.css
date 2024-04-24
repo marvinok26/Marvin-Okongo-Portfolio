@@ -330,10 +330,14 @@ section {
 
 /* Media queries for responsive design */
 @media only screen and (max-width: 768px) {
-  /* Adjust styles for mobile view */
   .section__pic-container {
-    height: 400px;
+    height: 250px;
     width: 250px;
+  }
+
+  .section__pic-container img {
+    width: 100%; /* Ensure the image fills the circular container */
+    height: auto; /* Maintain aspect ratio */
   }
 
   .section__pic-container2 {
