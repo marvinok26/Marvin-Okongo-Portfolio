@@ -314,7 +314,7 @@ section {
 
 .section__pic-container2 {
   height: 400px;
-  width: 3000px;
+  width: 3500px;
   margin: auto;
   border-radius: 50%; /* Make the container circular */
   overflow: hidden; /* Ensure the image stays with*/
