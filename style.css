@@ -332,12 +332,12 @@ section {
 @media only screen and (max-width: 768px) {
   .section__pic-container {
     height: 400px;
-    width: 250px;
+    width: 400px;
   }
 
   .section__pic-container img {
-    width: 100%; /* Ensure the image fills the circular container */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%;
+    height: auto;
   }
 
   .section__pic-container2 {
