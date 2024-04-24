@@ -333,7 +333,7 @@ section {
   /* Adjust styles for mobile view */
   .section__pic-container {
     height: 250px;
-    width: 250px;
+    width: 100%;
   }
 
   .section__pic-container2 {
