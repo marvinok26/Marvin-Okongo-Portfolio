@@ -332,12 +332,11 @@ section {
 @media only screen and (max-width: 768px) {
   .section__pic-container {
     height: 400px;
-    width: 400px;
+    width: 250px;
   }
 
   .section__pic-container img {
     width: 100%;
-    height: auto;
   }
 
   .section__pic-container2 {
