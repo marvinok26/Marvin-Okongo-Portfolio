@@ -298,6 +298,7 @@ section {
   height: 80%;
 }
 
+/* Styles for section__pic-container */
 .section__pic-container {
   height: 400px;
   width: 400px;
@@ -312,18 +313,33 @@ section {
   height: auto; /* Maintain aspect ratio */
 }
 
+/* Styles for section__pic-container2 */
 .section__pic-container2 {
   height: 400px;
-  width: 3500px;
+  width: 3500px; /* Adjust width for desktop view */
   margin: auto;
   border-radius: 50%; /* Make the container circular */
-  overflow: hidden; /* Ensure the image stays with*/
+  overflow: hidden; /* Ensure the image stays within the rounded container */
 }
 
 .section__pic-container2 img {
   display: block;
   width: 100%; /* Ensure the image fills the circular container */
   height: auto; /* Maintain aspect ratio */
+}
+
+/* Media queries for responsive design */
+@media only screen and (max-width: 768px) {
+  /* Adjust styles for mobile view */
+  .section__pic-container {
+    height: 250px;
+    width: 250px;
+  }
+
+  .section__pic-container2 {
+    height: 250px;
+    width: 100%; /* Set width to 100% for mobile view */
+  }
 }
 
 /* EXPERIENCE SECTION */
