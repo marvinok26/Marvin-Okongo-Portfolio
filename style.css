@@ -331,7 +331,7 @@ section {
 /* Media queries for responsive design */
 @media only screen and (max-width: 768px) {
   .section__pic-container {
-    height: 250px;
+    height: 400px;
     width: 250px;
   }
 
